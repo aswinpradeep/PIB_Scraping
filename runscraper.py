@@ -55,3 +55,7 @@ for i in range(1653267,1479900,-1):
                 writer.writerow(row_contents)
     except:
         print(i," failed")
+        file2 = open("failedfiles.txt","a")
+        file2.write("\n")
+        file2.write(str(i)) 
+        file2.close()
