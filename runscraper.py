@@ -7,6 +7,10 @@ from bs4 import BeautifulSoup
 import pdfkit 
 import csv
 from googletrans import Translator
+from pyvirtualdisplay import Display
+
+display = Display()
+display.start()
 
 translator = Translator()
 #1653267 - 2020 limit
